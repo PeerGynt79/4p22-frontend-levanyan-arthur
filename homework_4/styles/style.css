@@ -1,3 +1,10 @@
+a { text-decoration: none;
+    text-decoration-color: aqua;
+    text-shadow: 8px 8px 3px lightgrey ;
+    color: darkgoldenrod;
+    
+
+}
 .algncntr   {padding-left: 15%;}
 .btn   {
             position: relative;
