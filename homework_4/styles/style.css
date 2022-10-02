@@ -35,6 +35,8 @@ a.cl-lime {color: lime;}
 .tbl {
         padding-top: 50px;
         padding-bottom: 50px;
+        margin-left: 15%;
+        margin-right: 15%;
         display: flex;
         flex-wrap: wrap;
         justify-content:center ;
@@ -54,7 +56,7 @@ a.cl-lime {color: lime;}
         margin-right: 20px;
         width: 260px;
         height: 200px;
-        background-size: 250px 200px;
+        background-size: 260px 200px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 25px 25px 0px 0px;
 }
