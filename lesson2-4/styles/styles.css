@@ -1,0 +1,16 @@
+.header
+body {margin:0;
+}
+.container{}
+.element{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+.container-green .element {
+    background: green;
+}
+.image-container {
+    
+}
