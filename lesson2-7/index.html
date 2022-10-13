@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <form style="display: flex; flex-direction: column; width: 400px; margin: auto;">
+        <label for="name">Имя</label>
+        <input id="name" >
+        <input aria-label="ФИО" name="FIO" type="text" placeholder="ариалейбл">
+        <input id="FIO" name="FIO" type="text" placeholder="подсказка">
+        <input id="email" name="email" type="email">
+        <input id="password" name="password" type="password">
+        <input id="number" name="number" type="nubmer">
+        <!-- не исп-ся-->
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+
+        <!-- исп-ся-->
+        <input type="file">
+        <div>
+            <label for="checkbox1"> чекбокс</label>
+            <input id="checkbox1" type="checkbox" name="colors" value="red">
+        </div>
+        <div>
+            <label for="checkbox2"> чекбокс</label>
+            <input id="checkbox2" type="checkbox" name="colors" value="yellow">
+        </div>
+        <div>
+            <label for="checkbox3"> чекбокс</label>
+            <input id="checkbox3" type="checkbox" name="colors" value="white">
+        </div>
+        <div>
+            <label for="checkbox4"> чекбокс</label>
+            <input id="checkbox4" type="checkbox" name="colors" value="blue">
+        </div>
+        <div>
+            <label for="radio1" type="radio" name="gender" value="male"> Муж.</label>
+            <input id="radio1" type="radio" name="colors" value="blue">
+        </div>
+        <div>
+            <label for="radio2" type="radio" name="gender" value="female"> Жен.</label>
+            <input id="radio2" type="radio" name="colors" value="blue">
+        </div>
+
+        <label for="lng"></label>
+        <select name="language" id="lng">
+            <option value="ru">Русский</option>
+            <option value="en">Английский</option>
+            <option value="fr">Французский</option>
+        </select>
+
+        <label for="txt"></label>
+        <textarea name="textarea" id="txt" cols="30" rows="10"></textarea>
+        <button>Отправить</button>
+        <button type="submit">Отправить</button>
+        <input type="button" value="send">
+        <input type="submit" value="send">
+    </form>    
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{margin: 0;}
+.header{background: yellow;}
+.article{padding: 0 40px;}
+
+.article__heading{
+    color: aquamarine;
+}
+.article__section-paragraph{
+    color: limegreen;
+}
+.main{display: flex;}
+.sidebar{width: 400px;}
+.box {
+
+    background: red;
+    margin: 0 auto;
+}
+@media screen and (max-width:720px)
+{
+.content{
+display: block;}
+}
+
+@media screen and (min-width:320px) and (max-width:474px)
+{
+.box{
+    width:288px;
+    height:288px;
+}
+}
+@media screen and (min-width:475px) and (max-width:719px)
+{
+.box{
+    width:459px;
+    height:459px;
+}
+}
+@media screen and (min-width:720px) and (max-width:959px)
+{
+.box{
+    width:688px;
+    height:688px;
+}
+}
+@media screen and (min-width:960px) and (max-width:1023px)
+{
+.box{
+    width:928px;
+    height:928px;
+}
+}
+@media screen and (min-width:1024px) and (max-width:1279px)
+{
+.box{
+    width:992px;
+    height:992px;
+}
+}
