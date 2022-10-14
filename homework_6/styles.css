@@ -7,39 +7,58 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  min-width: 450px;  
 }
-.page-header {
+.header {
   position: absolute;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   background: linear-gradient(to top,#8fffff,rgb(212 185 255));
-  height: 50px;
+  height: 60px;
   width: 100%;
-  min-width: 186px;
+  min-width: 450px;
 } 
-.page-header__caption {
+.header__caption {
   font-size: 20px;
   position: relative;
   margin: 0;
-  top: 5px;
+  top: 4px;
+}
+.header__content {
+  font-size: 16px;
+  position: relative;
+  display: flex;
+  column-gap: 50px; 
+  left: calc(100vw - 180px);
+  flex-direction: row-reverse;
+  text-align: right;
+  width: 160px;
 } 
-.page-main {
-  margin-top: 50px;
+.main {
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
-  height: calc(100vh - 90px);
-} 
-.page-main__sidebar{
+  min-width: 450px;
+}
+
+.main__sidebar{
   display: flex;
   flex-direction: column;
   overflow-y: auto;
   background-color: azure;
-  height: calc(100vh - 90px);
-  width: 30%;
+  height: calc(100vh - 100px);
+  width: 35%;
+} 
+.main__sidebar_quickurls{
+  min-width: 110px;
+} 
+.main__sidebar_fastskip{
   min-width: 105px;
 } 
-.page-main-sidebar__caption{
+.main-sidebar__caption{
   position: sticky;
   top: 0;
   background: linear-gradient(to right,#8fffff,azure);
@@ -48,7 +67,7 @@ body {
   margin-bottom: 0;
   z-index: 5;
 } 
-.page-main-sidebar__content{
+.main-sidebar__content{
   text-decoration: none;
   width: 18px;
   margin-left: 4%;
@@ -56,16 +75,39 @@ body {
   top: 0px;
   z-index: 1;
 } 
-.page-main__workspace {
+.main-block__cell{
+  padding-top: 10px;
+  width: 33.33%;  
+}
+.main-block__cell_inner{
+    min-width: 90px;
+  }
+.main-block__cell_outer{
+    min-width: 80px;
+  }
+.main-block__urls { 
+  font-weight: 700;
+  text-decoration: none;
+  font-family: sans-serif;
+} 
+.main-block__urls_inner { 
+  text-shadow: 4px 4px 4px #BAE498 ;
+  color: darkgreen;
+} 
+.main-block__urls_outer { 
+  text-shadow: 4px 4px 4px #fac4c4 ;
+  color: maroon;
+} 
+.main__workspace {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
   background-color: azure;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 100px);
   width: 70%;
   min-width: 160px;
 }
-.page-main-workspace__caption{
+.main-workspace__caption{
   font-weight: 600;
   position: sticky;
   background: linear-gradient(to right,#8fffff,azure);
@@ -76,55 +118,51 @@ body {
   height: 18px;
   z-index: 5;
 } 
-.page-main-workspace__content-list{
+.main-workspace__content-list{
   margin-top: 0px;
   margin-bottom: 0px;  
   padding-left: 30px;
 }  
-.page-main-workspace__content-item{
+.main-workspace__content-item{
   text-decoration: none;
   padding-left: 10px;
   top: 0px;
   height: 18px;
   z-index: 1;
 }  
-.page-footer {
-    position: relative;
-    background: linear-gradient(to top,gray,azure );
-    height: 40px;
-    width: 100%;
-    min-width: 186px;
-  } 
- .page-footer__workspace{
+.footer {
+  position: relative;
+  background: linear-gradient(to top,gray,azure );
+  height: 40px;
+  min-width: 450px;
+  text-align: right; 
+} 
+.footer__content{
+  position: relative;
+  top: 10px;
+  font-weight: 700;
+  font-family: sans-serif; 
+  text-shadow: 5px 5px 5px #BAE498 ;
+  color: darkgreen;  
+  padding-right: 15px;
+  top: 15px;
+  z-index: 1;
+} 
+.footer__cell{
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
-  height: 100%;
-  width: 100%;
-  text-align: center; 
-}
-.page-footer-workspace__cell{
+  min-width: 450px;
   padding-top: 10px;
-  width: 33.33%;  
+  width: 50%;  
+  min-width: 90px;
+  text-align: center;
 }
-.page-footer-workspace__cell_first{
-    min-width: 90px;
-  }
-.page-footer-workspace__cell_second{
-    min-width: 80px;
-  }
-.page-footer-workspace__cell_third{
-    min-width: 90px;
-  }
-  .page-footer__urls { 
+.footer__urls { 
   font-weight: 700;
   text-decoration: none;
   font-family: sans-serif;
-} 
-.page-footer__urls_inner { 
   text-shadow: 4px 4px 4px #BAE498 ;
   color: darkgreen;
 } 
-.page-footer__urls_outer { 
-  text-shadow: 4px 4px 4px #fac4c4 ;
-  color: maroon;
-} 
+  
