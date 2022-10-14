@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-width: 450px;  
+  min-width: 340px;  
 }
 .header {
   position: absolute;
@@ -19,7 +19,7 @@ body {
   background: linear-gradient(to top,#8fffff,rgb(212 185 255));
   height: 60px;
   width: 100%;
-  min-width: 450px;
+  min-width: 340px;
 } 
 .header__caption {
   font-size: 20px;
@@ -28,10 +28,10 @@ body {
   top: 4px;
 }
 .header__content {
-  font-size: 16px;
+  font-size: 14px;
   position: relative;
   display: flex;
-  column-gap: 50px; 
+  column-gap: 25px; 
   left: calc(100vw - 180px);
   flex-direction: row-reverse;
   text-align: right;
@@ -41,7 +41,7 @@ body {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
-  min-width: 450px;
+  min-width: 340px;
 }
 
 .main__sidebar{
@@ -53,10 +53,10 @@ body {
   width: 35%;
 } 
 .main__sidebar_quickurls{
-  min-width: 110px;
+  min-width: 98px;
 } 
 .main__sidebar_fastskip{
-  min-width: 105px;
+  min-width: 92px;
 } 
 .main-sidebar__caption{
   position: sticky;
@@ -70,14 +70,13 @@ body {
 .main-sidebar__content{
   text-decoration: none;
   width: 18px;
-  margin-left: 4%;
-  padding-left: 3px;
+  padding-left: calc(4% + 3px);
   top: 0px;
   z-index: 1;
 } 
 .main-block__cell{
   padding-top: 10px;
-  width: 33.33%;  
+  padding-left: calc(4% + 3px);
 }
 .main-block__cell_inner{
     min-width: 90px;
@@ -105,7 +104,7 @@ body {
   background-color: azure;
   height: calc(100vh - 100px);
   width: 70%;
-  min-width: 160px;
+  min-width: 150px;
 }
 .main-workspace__caption{
   font-weight: 600;
@@ -121,11 +120,11 @@ body {
 .main-workspace__content-list{
   margin-top: 0px;
   margin-bottom: 0px;  
-  padding-left: 30px;
+  padding-left: 25px;
 }  
 .main-workspace__content-item{
   text-decoration: none;
-  padding-left: 10px;
+  padding-left: 0px;
   top: 0px;
   height: 18px;
   z-index: 1;
@@ -134,17 +133,16 @@ body {
   position: relative;
   background: linear-gradient(to top,gray,azure );
   height: 40px;
-  min-width: 450px;
+  min-width: 340px;
   text-align: right; 
 } 
 .footer__content{
   position: relative;
-  top: 10px;
+  font-size: 12px;
   font-weight: 700;
   font-family: sans-serif; 
   text-shadow: 5px 5px 5px #BAE498 ;
   color: darkgreen;  
   padding-right: 15px;
-  top: 15px;
-  z-index: 1;
+  top: 10px;
 } 
