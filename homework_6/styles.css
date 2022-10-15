@@ -40,8 +40,7 @@ body {
   flex-direction: row;
   min-width: 340px;
 }
-
-.main__sidebar{
+.main__sidebar {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
@@ -49,13 +48,13 @@ body {
   height: calc(100vh - 100px);
   width: 35%;
 } 
-.main__sidebar_quickurls{
+.main__sidebar_quickurls {
   min-width: 98px;
 } 
-.main__sidebar_fastskip{
+.main__sidebar_fastskip {
   min-width: 92px;
 } 
-.main-sidebar__caption{
+.main-sidebar__caption {
   position: sticky;
   top: 0;
   background: linear-gradient(to right,#8fffff,azure);
@@ -64,21 +63,21 @@ body {
   margin-bottom: 0;
   z-index: 5;
 } 
-.main-sidebar__content{
+.main-sidebar__content {
   text-decoration: none;
   width: 18px;
   padding-left: calc(4% + 3px);
   top: 0px;
   z-index: 1;
 } 
-.main-block__cell{
+.main-block__cell {
   padding-top: 10px;
   padding-left: calc(4% + 3px);
 }
-.main-block__cell_inner{
+.main-block__cell_inner {
     min-width: 90px;
   }
-.main-block__cell_outer{
+.main-block__cell_outer {
     min-width: 80px;
   }
 .main-block__urls { 
@@ -103,7 +102,7 @@ body {
   width: 70%;
   min-width: 150px;
 }
-.main-workspace__caption{
+.main-workspace__caption {
   font-weight: 600;
   position: sticky;
   background: linear-gradient(to right,#8fffff,azure);
@@ -114,12 +113,12 @@ body {
   height: 18px;
   z-index: 5;
 } 
-.main-workspace__content-list{
+.main-workspace__content-list {
   margin-top: 0px;
   margin-bottom: 0px;  
   padding-left: 25px;
 }  
-.main-workspace__content-item{
+.main-workspace__content-item {
   text-decoration: none;
   padding-left: 0px;
   top: 0px;
@@ -133,7 +132,7 @@ body {
   min-width: 340px;
   text-align: right; 
 } 
-.footer__content{
+.footer__content {
   position: relative;
   font-size: 12px;
   font-weight: 700;
