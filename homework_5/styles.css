@@ -1,0 +1,125 @@
+*{box-sizing: border-box;}
+body {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 340px;  
+}
+.header {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to top,#8fffff,rgb(212 185 255));
+  height: 60px;
+  width: 100%;
+  min-width: 340px;
+} 
+.header__caption {
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+  top: 4px;
+}
+
+.main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  min-width: 340px;
+}
+.main__sidebar {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: azure;
+  height: calc(100vh - 100px);
+  width: 35%;
+} 
+.main__sidebar_quickurls {
+  min-width: 160px;
+} 
+.main-sidebar__caption {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(to right,#8fffff,azure);
+  padding-left: calc(4% + 3px);
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 5;
+} 
+.main-sidebar__content {
+  text-decoration: none;
+  width: 18px;
+  padding-left: calc(4% + 3px);
+  top: 0px;
+  z-index: 1;
+} 
+.main-block__cell {
+  padding-top: 10px;
+  padding-left: calc(4% + 3px);
+}
+.main-block__cell_outer {
+    min-width: 80px;
+  }
+.main-block__urls { 
+  font-weight: 700;
+  text-decoration: none;
+  font-family: sans-serif;
+} 
+.main-block__urls_outer { 
+  text-shadow: 4px 4px 4px #fac4c4 ;
+  color: maroon;
+} 
+.main__workspace {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: azure;
+  height: calc(100vh - 100px);
+  width: 70%;
+  min-width: 150px;
+}
+.main-workspace__caption {
+  font-weight: 600;
+  position: sticky;
+  background: linear-gradient(to right,#8fffff,azure);
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 0px;
+  height: 18px;
+  z-index: 5;
+} 
+.main-workspace__content-list {
+  margin-top: 0px;
+  margin-bottom: 0px;  
+  padding-left: 25px;
+}  
+.main-workspace__content-item {
+  text-decoration: none;
+  padding-left: 0px;
+  top: 0px;
+  height: 18px;
+  z-index: 1;
+}  
+.footer {
+  position: relative;
+  background: linear-gradient(to top,gray,azure );
+  height: 40px;
+  min-width: 340px;
+  text-align: right; 
+} 
+.footer__content {
+  position: relative;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: sans-serif; 
+  text-shadow: 5px 5px 5px #BAE498 ;
+  color: darkgreen;  
+  padding-right: 15px;
+  top: 10px;
+} 
