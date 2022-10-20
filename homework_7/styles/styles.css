@@ -51,8 +51,8 @@ body  {
   align-items: center;
   top: calc(var(--ratio1440) * 26);
   left: calc(var(--ratio1440) * 45);
-  width: calc(var(--formwidth1440) - (90 * var(--xratio1440)));
-  height: calc(var(--formheight1440) - (52 * var(--yratio1440)));}
+  width: calc(var(--formwidth1440) - (90 * var(--ratio1440)));
+  height: calc(var(--formheight1440) - (52 * var(--ratio1440)));}
 .main-workspace-form-content__container  {
   width: 100%;}
 .main-workspace-form-content__container_caption  {
@@ -157,8 +157,8 @@ body  {
   align-items: center;
   top: calc(var(--ratio768) * 38);
   left: calc(var(--ratio768) * 45);
-  width: calc(var(--formwidth768) - (90 * var(--xratio768)));
-  height: calc(var(--formheight768) - (76 * var(--yratio768)));}
+  width: calc(var(--formwidth768) - (90 * var(--ratio768)));
+  height: calc(var(--formheight768) - (76 * var(--ratio768)));}
 .main-workspace-form-content__container  {
   width: 100%;
   height: 80px;}
