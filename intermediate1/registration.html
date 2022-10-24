@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход  в личный кабинет</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="./styles/styles_in_1440.css" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <section class="header__side" >
+            <img class="header-side__logo" src="images/logo_innopolis.png">
+            <h1 class="header-side__heading">PCS Frontend</h1>
+        </section>
+        <section class="header__side" >
+            <a class="header-side__item header-side__item_registration"   href="registration.html">Регистрация</a>
+            <a class="header-side__item header-side__item_entrance header-side__item_active">Вход</a>
+        </section>
+    </header>
+    <main class="main"  >
+        <form class="main__form">
+            <label class="main-form__caption">Вход</label>
+            <label class="main-form__label" for="email">Email</label>
+            <input class="main-form__input" name="email" type="email" placeholder="Введите email">
+            <label class="main-form__label" for="password">Пароль</label>
+            <input class="main-form__input" name="password" type="password" placeholder="Введите пароль">
+            <label class="main-form__label" for="password">Подтверждение пароля</label>
+            <input class="main-form__input" name="password" type="password" placeholder="Подтвердите пароль">
+            <div class="main-form__radiogroup" style="display: flex; flex-direction: column;">
+                <p>Пол</p>
+                <input id="radio1" type="radio" name="gender" value="male">
+                <label for="radio1"> Муж.</label> 
+                <input id="radio2" type="radio" name="gender" value="female">
+                <label for="radio2"> Жен.</label>
+            </div>
+            <label class="main-form__label" for="selfabout">О себе</label>
+            <textarea class="main-form__textarea" name="password" type="password" placeholder="Введите пароль">
+            </textarea>
+            <input id="checkbox" type="checkbox" name="checkbox">
+            <label for="checkbox"> Жен.</label>
+            <button class="main-form__button" type="submit">Войти</button>
+            
+        </form>
+    </main>
+</body>
+</html>

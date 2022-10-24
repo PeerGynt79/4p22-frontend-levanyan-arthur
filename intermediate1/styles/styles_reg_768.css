@@ -1,0 +1,611 @@
+/* Страница регистрации, 320-768 */
+
+position: relative;
+width: 768px;
+height: 1184px;
+
+background: #FFFFFF;
+
+
+/* Frame 3 */
+
+position: absolute;
+width: 600px;
+height: 875px;
+left: 84px;
+top: 160px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+
+
+/* Вход */
+
+position: absolute;
+width: 115px;
+height: 50px;
+left: 242px;
+top: 26px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 50px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Input */
+
+position: absolute;
+width: 510px;
+height: 49px;
+left: 45px;
+top: 112px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 509px;
+height: 49px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 2px solid #787878;
+
+
+/* johndoe@email.com */
+
+position: absolute;
+width: 259px;
+height: 36px;
+left: 15px;
+top: 7px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+color: #787878;
+
+
+
+/* Email */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: 0px;
+top: -21px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Пароль */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: 0px;
+top: 60px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Подтверждение пароля */
+
+position: absolute;
+width: 182px;
+height: 16px;
+left: 0px;
+top: 141px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* О себе */
+
+position: absolute;
+width: 50px;
+height: 16px;
+left: 0px;
+top: 303px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Пол */
+
+position: absolute;
+width: 30px;
+height: 16px;
+left: -2px;
+top: 222px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Input */
+
+position: absolute;
+width: 510px;
+height: 49px;
+left: 45px;
+top: 193px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 509px;
+height: 49px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 2px solid #787878;
+
+
+/* Введите пароль */
+
+position: absolute;
+width: 212px;
+height: 36px;
+left: 15px;
+top: 7px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+color: #CCCCCC;
+
+
+
+/* Пароль */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: 8px;
+top: -19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Input */
+
+position: absolute;
+width: 510px;
+height: 49px;
+left: 45px;
+top: 274px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 509px;
+height: 49px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 2px solid #787878;
+
+
+/* Подтвердите пароль */
+
+position: absolute;
+width: 276px;
+height: 36px;
+left: 15px;
+top: 7px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+color: #CCCCCC;
+
+
+
+/* Пароль */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: 8px;
+top: -19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Input */
+
+position: absolute;
+width: 510px;
+height: 246px;
+left: 45px;
+top: 436px;
+
+
+
+/* Rectangle 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 509px;
+height: 246px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 2px solid #787878;
+
+
+/* Расскажите о себе... */
+
+position: absolute;
+width: 277px;
+height: 36px;
+left: 15px;
+top: 7px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+/* identical to box height, or 129% */
+
+color: #CCCCCC;
+
+
+
+/* Пароль */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: 8px;
+top: -19px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+color: #787878;
+
+
+
+/* Button */
+
+position: absolute;
+width: 180px;
+height: 52px;
+left: 210px;
+top: 786px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 180px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+background: #1A226B;
+
+
+/* Регистрация */
+
+position: absolute;
+width: 145px;
+height: 16px;
+left: 18px;
+top: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 16px;
+/* identical to box height, or 67% */
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 45px;
+top: 355px;
+
+background: #FFFFFF;
+border: 2px solid #787878;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 49px;
+top: 359px;
+
+background: #787878;
+
+
+/* Мужчина */
+
+position: absolute;
+width: 61px;
+height: 16px;
+left: 74px;
+top: 357px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+color: #787878;
+
+
+
+/* Ellipse 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 45px;
+top: 384px;
+
+background: #FFFFFF;
+border: 2px solid #787878;
+
+
+/* Женщина */
+
+position: absolute;
+width: 64px;
+height: 16px;
+left: 74px;
+top: 386px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+color: #787878;
+
+
+
+/* Checkbox */
+
+position: absolute;
+width: 312px;
+height: 24px;
+left: 43px;
+top: 706px;
+
+
+
+/* Rectangle 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 2px solid #787878;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 6px;
+top: 6px;
+
+background: #787878;
+
+
+/* Я согласен получать обновления на почту */
+
+position: absolute;
+width: 278px;
+height: 16px;
+left: 34px;
+top: 4px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+color: #787878;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 768px;
+height: 80px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Вход */
+
+position: absolute;
+width: 40px;
+height: 19px;
+left: 700px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #787878;
+
+
+
+/* Регистрация */
+
+position: absolute;
+width: 105px;
+height: 19px;
+left: 559px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #1A226B;
+
+
+
+/* PCS Frontend */
+
+position: absolute;
+width: 162px;
+height: 29px;
+left: 178px;
+top: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #787878;
+
+
+
+/* 1280px-IU_logo 2 */
+
+position: absolute;
+width: 124px;
+height: 25px;
+left: 20px;
+top: 25px;
+
+background: url(1280px-IU_logo.png);
