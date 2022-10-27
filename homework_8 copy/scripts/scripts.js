@@ -1,16 +1,14 @@
 'use strict';
 let operations = new Set(['+','-','*','/']);
 let errorSet = new Set([NaN,Infinity,null]);
-//var operand1=String(document.getElementById('operand1').value).replaceAll(' ','');
-//var operand2=String(document.getElementById('operand2').value).replaceAll(' ','');
-//var operation=String(document.getElementById('operation').value).replaceAll(' ','');
+let operand1=String(document.getElementById('operand1').value).replaceAll(' ','');
+let operand2=String(document.getElementById('operand2').value).replaceAll(' ','');
+let operation=String(document.getElementById('operation').value).replaceAll(' ','');
 //document.getElementById('operand1').addEventListener('change' , (event) =>{document.getElementById("operand1").click()})
 
 document.getElementById('result').addEventListener('click' , (event) => 
 {
-let operand1=String(document.getElementById('operand1').value).replaceAll(' ','');
-let operand2=String(document.getElementById('operand2').value).replaceAll(' ','');
-let operation=String(document.getElementById('operation').value).replaceAll(' ','');
+
 let operand1_error='';
 let operand2_error='';
 let operation_error='';

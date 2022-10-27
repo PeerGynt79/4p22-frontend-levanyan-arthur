@@ -1,16 +1,15 @@
 'use strict';
 let operations = new Set(['+','-','*','/']);
 let errorSet = new Set([NaN,Infinity,null]);
-//var operand1=String(document.getElementById('operand1').value).replaceAll(' ','');
-//var operand2=String(document.getElementById('operand2').value).replaceAll(' ','');
-//var operation=String(document.getElementById('operation').value).replaceAll(' ','');
-//document.getElementById('operand1').addEventListener('change' , (event) =>{document.getElementById("operand1").click()})
+document.getElementById('operand1').addEventListener('input' , (event) =>{document.getElementById('result').click()})
+document.getElementById('operand2').addEventListener('input' , (event) =>{document.getElementById('result').click()})
+document.getElementById('operation').addEventListener('input' , (event) =>{document.getElementById('result').click()})
 
 document.getElementById('result').addEventListener('click' , (event) => 
 {
-let operand1=String(document.getElementById('operand1').value).replaceAll(' ','');
-let operand2=String(document.getElementById('operand2').value).replaceAll(' ','');
-let operation=String(document.getElementById('operation').value).replaceAll(' ','');
+var operand1=String(document.getElementById('operand1').value).replaceAll(' ','');
+var operand2=String(document.getElementById('operand2').value).replaceAll(' ','');
+var operation=String(document.getElementById('operation').value).replaceAll(' ','');
 let operand1_error='';
 let operand2_error='';
 let operation_error='';
@@ -41,7 +40,7 @@ let error=(operand1_error+operand2_error+operation_error);
 if (error) 
     {
         document.getElementById('result').setAttribute('style','font-size: '+Math.min((Math.round(1.5*(55/(`Результат: ${Error}`+'px').length)*10)/10),1.45)+'rem;');
-        document.getElementById('result').value=Error;
+        document.getElementById('result').value=error;
     }
     else document.getElementById('result').setAttribute('style','font-size: 1.5rem;');
 if (!error) 
