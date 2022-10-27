@@ -17,16 +17,9 @@ let operation_error='';
 event.preventDefault();       
 if  (operand1 === '') 
     {operand1_error='Первое число не указано. '}   
-    else 
-    /*{try {
-        let tryConvert=Number(operand1)
-    } catch (error) {
-        operand1_error='Некорректный ввод 1-го числа. '
-    }}
-    */ 
+    else  
     if (errorSet.has(Number(operand1))) 
         {operand1_error='Некорректный ввод 1-го числа. '};
-        
 if  (operand2 === '') 
     {operand2_error='Второе число не указано. '}   
     else  
@@ -37,14 +30,14 @@ if  (operation==='')
     else 
     if (!((operation.length===1)&&(operations.has(operation)))) 
         {operation_error='Программа не поддерживает такую операцию.'};
-let error=(operand1_error+operand2_error+operation_error);
-if (error) 
+let Error=(operand1_error+operand2_error+operation_error);
+if (Error) 
     {
         document.getElementById('result').setAttribute('style','font-size: '+Math.min((Math.round(1.5*(55/(`Результат: ${Error}`+'px').length)*10)/10),1.45)+'rem;');
         document.getElementById('result').value=Error;
     }
     else document.getElementById('result').setAttribute('style','font-size: 1.5rem;');
-if (!error) 
+if (!Error) 
     {switch (operation) 
         {
         case '*': 
