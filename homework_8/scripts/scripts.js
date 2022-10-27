@@ -17,12 +17,6 @@ event.preventDefault();
 if  (operand1 === '') 
     {operand1_error='Первое число не указано. '}   
     else 
-    /*{try {
-        let tryConvert=Number(operand1)
-    } catch (error) {
-        operand1_error='Некорректный ввод 1-го числа. '
-    }}
-    */ 
     if (errorSet.has(Number(operand1))) 
         {operand1_error='Некорректный ввод 1-го числа. '};
         
