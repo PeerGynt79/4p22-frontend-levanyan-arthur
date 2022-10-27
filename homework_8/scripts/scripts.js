@@ -38,7 +38,7 @@ if (!Error)
         {
         case '*': 
             {
-                let resVar=Number(operand1)/Number(operand2);
+                let resVar=Number(operand1)*Number(operand2);
                 document.getElementById('result').value = `Результат: ${resVar}`;
                 break;
             }
