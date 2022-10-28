@@ -32,7 +32,7 @@ document.getElementById('result').addEventListener('click' , (event) => {
     if (error) {
         document.getElementById('result').setAttribute('style','font-size: ' + Math.min((Math.round(1.5*(55/(`Результат: ${Error}` + 'px').length) * 10) / 10), 1.45) + 'rem;');
         document.getElementById('result').value = error;
-    }   else {
+    } else {
         document.getElementById('result').setAttribute('style','font-size: 1.5rem;');
     };
     let resVar =0.0;
