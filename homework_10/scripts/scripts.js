@@ -38,7 +38,7 @@ fetch('https://reqres.in/api/users?per_page=12')
       console.log(entry);
   }
   } catch {
-    console.log('Data processing not comlete...')    
+    console.log('Data processing not complete...')    
   }
 })
 .catch(()=>{console.log('Data fetch error...');})
