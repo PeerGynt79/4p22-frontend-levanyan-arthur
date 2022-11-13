@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация личного кабинета</title>
+    <link rel="icon" sizes="any" type="image" href="images/peergynt.png">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+</head>
+<body>
+    <header class="header">
+        <section class="header__side" >
+            <img class="header-side__logo" alt="logo_innopolis" src="images/logoinnopolis.png">
+            <h1 class="header-side__heading">PCS Frontend</h1>
+        </section>
+        <section class="header__side" >
+            <a class="header-side__item header-side__item_registration header-side__item_active" >Регистрация</a>
+            <a class="header-side__item header-side__item_entrance"  href="index.html">Вход</a>
+        </section>
+    </header>
+    <main class="main"  >
+        <form class="main__form main__form_registration">
+            <p class="main-form__caption main-form__caption_big">Вход</p>
+            <label class="main-form__label main-form__label_registration" for="email">Email</label>
+            <input class="main-form__input" id="email" name="email" type="email" placeholder="Введите email">
+            <label class="main-form__label main-form__label_registration" for="password">Пароль</label>
+            <input class="main-form__input" id="password" name="password" type="password" placeholder="Введите пароль">
+            <label class="main-form__label main-form__label_registration" for="password_repeat">Подтверждение пароля</label>
+            <input class="main-form__input" id="password_repeat" name="password_repeat" type="password" placeholder="Подтвердите пароль">
+            <p class="main-form__caption main-form__caption_small">Пол</p>
+            <div class="main-form__radiogroup">
+                <div class="main-form__radioitem"  id="margin9">
+                    <input id="radio1" type="radio" name="gender" value="male" checked>
+                    <label class="main-form__label_radio" for="radio1"> Муж.</label> 
+                </div>
+                <div class="main-form__radioitem">
+                    <input id="radio2" type="radio" name="gender" value="female">
+                    <label class="main-form__label_radio" for="radio2"> Жен.</label>
+                </div>
+            </div>
+            <p class="main-form__caption main-form__caption_small" for="selfabout">О себе</p>
+            <textarea class="main-form__textarea" id="selfabout" name="selfabout" type="password" placeholder="Расскажите о себе..."></textarea>
+            <div class="main-form__checkbox">
+                <input id="checkbox" name="subscribe" type="checkbox" value="true">
+                <label class="main-form__label_checkbox" for="checkbox">Я согласен получать обновления на почту</label>
+            </div>
+            <button class="main-form__button main-form__button_registration" type="submit">Регистрация</button>
+            
+        </form>
+    </main>
+</body>
+</html>
