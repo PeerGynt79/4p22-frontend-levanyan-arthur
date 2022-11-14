@@ -71,10 +71,28 @@ background: #FFFFFF;}
   margin-top: 11px;
   font-size: 16px;
   line-height: 16px;}  
+.main-form__label-div  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;}  
 .main-form__label_entrance  {
   margin-bottom: 3px;}  
 .main-form__label_registration  {
+  position: relative;
   margin-bottom: 5px;}
+.main-form__label-registration_left  {
+  left: -11px;}
+.main-form__label-registration_right  {
+  color: #EE2424;}
+#email-attention{
+    visibility: hidden;
+}
+#password-attention{
+  visibility: hidden;
+}
+#repeat-attention{
+  visibility: hidden;
+}
 .main-form__label_radio  {
   font-size: 14px;
   line-height: 20px;
@@ -205,96 +223,99 @@ background: #FFFFFF;}
 .header-side__logo  {
   margin-top: 25px;
   margin-bottom: 30px;
-  margin-left: calc(var(--ratio768) * 20);}
+  margin-left: calc(20 * var(--ratio768));}
 .header-side__heading  {
-  margin-left:  calc(var(--ratio768) / 2 * 34);
-  font-size: calc(24 * min(var(--ratio768) * 1.2,1px));}
+  margin-left:  calc(34 * var(--ratio768));
+  font-size: calc(24 * var(--ratio768));}
 .header-side__item  {
-  font-size: calc(16 * min(var(--ratio768) * 1.5,1px));}
+  font-size: calc(16 * var(--ratio768));}
 .header-side__item_entrance  {
-  margin-right: calc(var(--ratio768) / 1.5 * 28);}
+  margin-right: calc(var(--ratio768) * 28);}
 .header-side__item_registration  {
-  margin-right: calc(var(--ratio768) / 1.5 * 36);}
+  margin-right: calc(var(--ratio768) * 36);}
 .main__form  {
   margin: calc(var(--ratio768) * 80) calc(var(--ratio768) * 84) calc(var(--ratio768) * 278) calc(var(--ratio768) * 84);
   padding: calc(var(--ratio768) * 26) calc(var(--ratio768) * 45) calc(var(--ratio768) * 37);}
 .main-form__caption_big  {
-  font-size: calc(50 * min(var(--ratio768) * 1.5,1px));
-  line-height: calc(50 * min(var(--ratio768) * 1.5,1px));}
+  font-size: calc(50 * var(--ratio768));
+  line-height: calc(50 * var(--ratio768));}
 .main-form__caption_small  {
-  margin-top: calc(11 * min(var(--ratio768) * 1.7,1px));
-  margin-bottom: calc(5 * min(var(--ratio768) * 1.7,1px));
-  line-height: calc(16 * min(var(--ratio768) * 1.7,1px));    
-  font-size: calc(16 * min(var(--ratio768) * 1.7,1px));}  
+  margin-top: calc(11 * var(--ratio768));
+  margin-bottom: calc(5 * var(--ratio768));
+  line-height: calc(16 * var(--ratio768));    
+  font-size: calc(16 * var(--ratio768));}  
 .main-form__label  {
-  margin-top: calc(11 * min(var(--ratio768) * 1.7,1px));
-  height: calc(16 * min(var(--ratio768) * 1.7,1px));
-  font-size: calc(16 * min(var(--ratio768) * 1.7,1px));
-  line-height: calc(16 * min(var(--ratio768) * 1.7,1px));}  
+  margin-top: calc(11 * var(--ratio768));
+  height: calc(16 * var(--ratio768));
+  font-size: calc(16 * var(--ratio768));
+  line-height: calc(16 * var(--ratio768));}  
 .main-form__label_entrance  {
-  margin-bottom: calc(3 * min(var(--ratio768) * 1.7,1px));}
+  margin-bottom: calc(3 * var(--ratio768));}
 .main-form__label_registration  {
-  margin-bottom: calc(5 * min(var(--ratio768) * 1.7,1px));}  
+  margin-bottom: calc(5 * var(--ratio768));}  
+.main-form__label_registration_left  {
+  left: calc(-11 * var(--ratio768));}
 .main-form__label_radio  {
   font-weight: 400;
-  font-size: calc(14 * min(var(--ratio768) * 1.5,1px));
-  line-height: calc(20 * min(var(--ratio768) * 1.5,1px));}  
+  font-size: calc(14 * var(--ratio768));
+  line-height: calc(20 * var(--ratio768));}  
 .main-form__label_checkbox  {
   font-weight: 400;
-  font-size: calc(14 * min(var(--ratio768) * 1.5,1px));
-  line-height: calc(24 * min(var(--ratio768) * 1.5,1px));}  
+  font-size: calc(14 * var(--ratio768));
+  line-height: calc(24 * var(--ratio768));}  
 .main-form__input  {
-  height: calc(49 * min(var(--ratio768) * 1.7,1px));
-  padding-top: calc(7 * min(var(--ratio768) * 1.7,1px));
-  padding-bottom: calc(6 * min(var(--ratio768) * 1.7,1px));
-  padding-left: calc(15 * min(var(--ratio768) * 1.25,1px));
-  font-size: calc(28 * min(var(--ratio768) * 1.25,1px));
-  line-height: calc(36 * min(var(--ratio768) * 1.25,1px));;} 
+  height: calc(49 * var(--ratio768));
+  padding-top: calc(7 * var(--ratio768));
+  padding-bottom: calc(6 * var(--ratio768));
+  padding-left: calc(15 * var(--ratio768));
+  font-size: calc(28 * var(--ratio768));
+  line-height: calc(36 * var(--ratio768));;} 
 .main-form__textarea  {
   height: calc(246 * var(--ratio768));
-  padding-top: calc(7 * min(var(--ratio768) * 1.7,1px));
-  padding-bottom: calc(6 * min(var(--ratio768) * 1.7,1px));
-  padding-left: calc(15 * min(var(--ratio768) * 1.25,1px));
-  font-size: calc(28 * min(var(--ratio768) * 1.25,1px));
-  line-height: calc(36 * min(var(--ratio768) * 1.25,1px));;} 
+  padding-top: calc(7 * var(--ratio768));
+  padding-bottom: calc(6 * var(--ratio768));
+  padding-left: calc(15 * var(--ratio768));
+  font-size: calc(28 * var(--ratio768));
+  line-height: calc(36 * var(--ratio768));;} 
 .main-form__button  {
   align-self: center;
-  margin-top: calc(52 * min(var(--ratio768) * 1.7,1px));
-  width: calc(180 * min(var(--ratio768) * 1.7,1px));
-  height: calc(52 * min(var(--ratio768) * 1.7,1px));
-  font-size: calc(24 * min(var(--ratio768) * 1.7,1px));
-  line-height: calc(16 * min(var(--ratio768) * 1.7,1px));;  
+  margin-top: calc(52 * var(--ratio768));
+  width: calc(180 * var(--ratio768));
+  height: calc(52 * var(--ratio768));
+  font-size: calc(24 * var(--ratio768));
+  line-height: calc(16 * var(--ratio768));;  
   background: #1A226B;
   border: none;
   color: #FFFFFF;} 
 .main-form__checkbox input  {
-  width: calc(315 * min(var(--ratio768) * 1.5,1px));
-  height: calc(24 * min(var(--ratio768) * 1.5,1px));}
+  width: calc(315 * var(--ratio768));
+  height: calc(24 * var(--ratio768));}
 .main-form__checkbox label::before  {
-  border: calc(2 * min(var(--ratio768) * 1.5,1px)) solid #787878;
-  height:calc(24 * min(var(--ratio768) * 1.5,1px)); 
-  width: calc(24 * min(var(--ratio768) * 1.5,1px));}
+  border: calc(2 * var(--ratio768)) solid #787878;
+  height:calc(24 * var(--ratio768)); 
+  width: calc(24 * var(--ratio768));}
 .main-form__checkbox label  {
-  padding-left: calc(30 * min(var(--ratio768) * 1.5,1px));}
+  padding-left: calc(30 * var(--ratio768));}
 .main-form__checkbox input:checked + label::after  {
-  left: calc(6 * min(var(--ratio768) * 1.5,1px));
-  top: calc(6 * min(var(--ratio768) * 1.5,1px));
-  height:calc(12 * min(var(--ratio768) * 1.5,1px)); 
-  width: calc(12 * min(var(--ratio768) * 1.5,1px));}
+  left: calc(6 * var(--ratio768));
+  top: calc(6 * var(--ratio768));
+  height:calc(12 * var(--ratio768)); 
+  width: calc(12 * var(--ratio768));}
 #margin9  {
-  margin-bottom: calc(9 * min(var(--ratio768) * 1.7,1px));}  
+  margin-bottom: calc(9 * var(--ratio768));}  
 .main-form__radiogroup input  {
-  width: calc(55 * min(var(--ratio768) * 1.5,1px));
-  height: calc(20 * min(var(--ratio768) * 1.5,1px));}
+  width: calc(55 * var(--ratio768));
+  height: calc(20 * var(--ratio768));}
 .main-form__radiogroup label::before  {
-  border: calc(2 * min(var(--ratio768) * 1.5,1px)) solid #787878;
-  height:calc(20 * min(var(--ratio768) * 1.5,1px)); 
-  width: calc(20 * min(var(--ratio768) * 1.5,1px));}
+  border: calc(2 * var(--ratio768)) solid #787878;
+  height:calc(20 * var(--ratio768)); 
+  width: calc(20 * var(--ratio768));}
 .main-form__radiogroup label  {
   position: absolute;
-  padding-left: calc(24 * min(var(--ratio768) * 1.5,1px));}
+  padding-left: calc(24 * var(--ratio768));}
 .main-form__radiogroup input:checked + label::after  {
-  left: calc(4 * min(var(--ratio768) * 1.5,1px));
-  top: calc(4 * min(var(--ratio768) * 1.5,1px));
-  height:calc(12 * min(var(--ratio768) * 1.5,1px)); 
-  width: calc(12 * min(var(--ratio768) * 1.5,1px));}}
+  left: calc(4 * var(--ratio768));
+  top: calc(4 * var(--ratio768));
+  height:calc(12 * var(--ratio768)); 
+  width: calc(12 * var(--ratio768));}
+}
