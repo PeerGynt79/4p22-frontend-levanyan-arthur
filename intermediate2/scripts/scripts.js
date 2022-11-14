@@ -1,12 +1,12 @@
 'use strict';
-document.getElementById('email').addEventListener('change' , (event) =>{
+document.getElementById('email').addEventListener('input' , (event) =>{
     event.target.style.borderColor = '#787878'
 });
-document.getElementById('password').addEventListener('change' , (event) =>{
-    event.target.style.borderColor = '#787878'
+document.getElementById('password').addEventListener('input' , (event) =>{
+    [event.target.style.borderColor,document.getElementById('password_repeat').style.borderColor] = ['#787878','#787878'];
 });
-document.getElementById('password_repeat').addEventListener('change' , (event) =>{
-    event.target.style.borderColor = '#787878'
+document.getElementById('password_repeat').addEventListener('input' , (event) =>{
+    [event.target.style.borderColor,document.getElementById('password').style.borderColor] = ['#787878','#787878'];
 });
 document.getElementById('registration_button').addEventListener('click' , (event) => {
     event.preventDefault();
@@ -35,6 +35,7 @@ document.getElementById('registration_button').addEventListener('click' , (event
     let gendervalue = document.getElementById('radio1').checked?'male':'female';
     let subcribevalue = document.getElementById('checkbox').checked?'yes':'no';
     if ((email_att.innerText + pass_att.innerText + repeat_att.innerText)===''){
+        console.log({Email: email.value, Password: password.value, Gender:gendervalue,Selfabout:document.getElementById('selfabout').value,Subscribe:subcribevalue});
         console.log('Email:', email.value, '\nPassword:', password.value, '\nGender:', gendervalue, `\nSelfabout:<\n${document.getElementById('selfabout').value}\n>`, '\nSubscribe:', subcribevalue)
     } 
 });
